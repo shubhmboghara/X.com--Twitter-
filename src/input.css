@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @media (max-width: 1440px) {
+      .responsive-second {
+        width: 90% !important;
+        height: auto !important;
+        flex-wrap: wrap;
+        padding: 10px;
+
+      }
+  
+      .responsive-frist {
+         margin-left: 10px; 
+      }
+    }
+  }
